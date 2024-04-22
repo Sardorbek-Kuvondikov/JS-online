@@ -1,129 +1,145 @@
-// let b = 1;
-// let a = "2";
+// let a = "1";
 
-// let str1 = "webbrain";
-// let str2 = "academy";
+// console.log(typeof +a);
+// console.log(typeof Number(a));
+// console.log(typeof parseInt(a));
+// console.log(typeof parseFloat(a));
+// console.log(typeof Number.parseInt(a));
+// console.log(typeof Number.parseFloat(a));
 
-// console.log(str1 + str2);
-// console.log(isNaN(a));
+// var test = '1'
+// var test = '1'
 
-// console.log(b * a);
-// console.log(+a - b);
+// let title = '1'
+// let title = '1'
 
-// ==========
-// let a = "10";
-// let b = "10.3";
+// console.log(null == undefined);
+// console.log(null === undefined);
+// console.log(2 ** (2 + 1) / 2);
 
-// console.log(Number(b));
-// console.log(Number.parseInt(b));
-// console.log(Number.parseFloat(b));
-// console.log(parseFloat(b));
-// console.log(parseInt(b));
+// let a = null;
 
-// console.log(Number(a));
-// console.log(Number.parseInt(a));
-// console.log(Number.parseFloat(a));
+// console.log(a + 1);
+// console.log(a--);
+// console.log(a--);
 
-// ==========
-// true = 1, '1',
-// false -> 0,
-// console.log(false == 0);
+// let a = 1;
+
 // console.log(true == 1);
-// console.log(false == null);
-// console.log(false == undefined);
-// console.log(undefined == null);
+// console.log(true === 1);
 
-// console.log(true == "1");
-// console.log(true == "a");
-// console.log(true == "2");
-// console.log(true == "0");
+// console.log(true !== false);
+// console.log(true != false);
 
-// ==========
-// let a = 1;
-// let b = "10";
+// console.log(1 !== 0);
+// console.log(1 != 0);
 
-// console.log(1 + (1 * 1) / 1);
-// console.log(((1 + 1) * 1) / 1);
+// console.log(1 == "0" || false);
 
-// ========== --, ++
-// a++
-// a = a+1
+// console.log(1 !== "0" || (false && "hey"));
+// console.log(1 !== "0" || (true && "hey"));
 
-// let a = 11; //1
-// console.log(a--); //11
-// console.log(a); // 12
-// console.log(++a); //13
-// console.log(a); // 13
-// console.log(a++); // 13
-// console.log(a++); // 14
-// console.log(++a); // 16
+// console.log(1 !== "0" && false && "hey");
+// console.log(!(1 !== "0" && true && "hey"));
 
-// ==========
+// let temp = "sovuq"; // issiq, sovuq, yomgir, qor
 
-// Obrivations
-// let a = 50;
+// 0 , null, undefined
+// if (temp === "issiq") {
+//   console.log("Havo issiq, yengil kiyinib oling");
+// } else if (temp === "sovuq") {
+//   console.log("Havo sovuq, qalin kiyinib oling");
+// } else if (temp === "yomgir") {
+//   console.log("Havo yomgir, soyabon olib oling");
+// } else if (temp === "bulut") {
+//   console.log("Havo qor, qalin kiyinib oling, soyabon oling");
+// } else {
+//   console.log("nomalum ob havo");
+// }
 
-// a = a + 10; // 50+10=60
-// a += 10; // 60+10=70
+// if (temp === "sovuq") {
+//   console.log("nomalum ob havo, sovuq");
+// }
 
-// console.log(a);
+// temp = 12; // temp >0 && temp < 10, temp >10 && temp<15, temp >15 && temp<25
 
-// ==========
-// Comparision
-// let a = 10;
-// let b = 11; //number
-// let c = "11"; // string
+// if (temp < 0) {
+//   console.log("havo juda sovuq");
+// } else if (temp < 10) {
+//   console.log("havo  sovuq");
+// } else if (temp < 15) {
+//   console.log("havo issiq");
+// } else if (temp < 25) {
+//   console.log("havo juda issiq");
+// }
 
-// =, ==, ==
+// temp = 5;
+// if (temp < 0) {
+//   console.log("havo juda sovuq");
+// } else if (temp < 25) {
+//   console.log("havo juda issiq");
+// } else if (temp < 15) {
+//   console.log("havo issiq");
+// } else if (temp < 10) {
+//   console.log("havo  sovuq");
+// }
 
-// console.log(a > b);
-// console.log(a < b);
-// console.log(c < b);
-// console.log(c <= b);
-// console.log(c >= b);
-// console.log(c == b);
-// console.log(c === b);
-// console.log(c =< b); wrong syn
+// temp = 25; // temp >0 && temp < 10, temp >10 && temp<15, temp >15 && temp<25
 
-// let str1 = "A";
-// let str2 = "a";
+// if (temp < 0) {
+//   console.log("havo juda sovuq");
+// } else if (temp <= 25 && temp > 15) {
+//   console.log("havo juda issiq");
+//   console.log("havo juda issiq");
+// } else if (temp <= 15 && temp > 10) {
+//   console.log("havo issiq");
+// } else if (temp <= 10 && temp > 0) {
+//   console.log("havo  sovuq");
+// } else {
+//   console.log("not found");
+// }
 
-// console.log(str1 > str2);
-// console.log(str1 < str2);
-// console.log("sutr1" < "str2");
+// if('condition'){'code'}
+// else if('condition'){'code'}
+// else{'code'}
 
-// let a = 1;
-// let b = 1;
-// let check = true;
+// if ("condition") console.log("havo juda issiq");
+// else if ("condition") return true;
+// else return false;
 
-// console.log(a == b); // !=
-// console.log(a === b); //!==
-// console.log(a != b);
-// console.log(check);
-// console.log(!check);
+// temp = 5; // temp >0 && temp < 10, temp >10 && temp<15, temp >15 && temp<25
 
-// ==========
-// Logical Operations
-// OR ||
-// let ceo = false;
-// let admin = true;
+// if (temp < 0) console.log("havo juda sovuq");
+// else if (temp <= 25 && temp > 15) console.log("havo juda issiq");
+// else if (temp <= 15 && temp > 10) console.log("havo issiq");
+// else if (temp <= 10 && temp > 0) console.log("havo  sovuq");
+// else console.log("not found");
 
-// console.log(time === true || ceo === true);
-// console.log(false || true);
-// console.log(admin || ceo);
+// ? :
 
-// let time = 11;
-// console.log(admin === true || ceo === true);
+// // temp < 0? === if (temp < 0)
+// temp < 0
+//   ? console.log("havo juda sovuq")
+//   : temp < 10
+//   ? console.log("havo sovuq")
+//   : temp < 15
+//   ? console.log("havo issiq")
+//   : console.log("havo juda issiq");
 
-// AND &&
+// Nullish ?? -> null undefined
+// OR || -> null undefined, 0 , false, NaN, "", -1 0n
 
-// Europe
-let id = false;
-let face = true;
+// console.log(false || 1);
+// console.log(false ?? 1);
 
-// uzbek
-let galustik = true;
-let soqol = true;
-let pul = true;
+// console.log(NaN || 1);
+// console.log(NaN ?? 1);
+// console.log(null || 1);
+// console.log(null ?? 1);
 
-console.log(galustik && soqol && pul);
+// console.log(undefined || 1);
+// console.log(undefined ?? 1);
+
+// console.log(2 * 2); //2 ** 2
+// console.log(2 * 2 * 2); //2 ** 3
+// console.log(2 * 2 * 2 * 2); //2 ** 4

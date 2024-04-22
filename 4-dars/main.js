@@ -1,129 +1,72 @@
-// let b = 1;
-// let a = "2";
+// let a=4
 
-// let str1 = "webbrain";
-// let str2 = "academy";
+// if(a==1){}
+// if(a==2){}
+// if(a==3){}
+// if(a==4){}
+// if(a==5){}
+// if(a==6){}
 
-// console.log(str1 + str2);
-// console.log(isNaN(a));
+// console.log(0 || 1);
+// console.log(0 ?? 1);
 
-// console.log(b * a);
-// console.log(+a - b);
+// if -> <,>,<=,>=, ==, ===
+// switch -> ===
+// let data = "bulut";
+// switch (data) {
+//   case 1:
+//     console.log("teng");
+//     break;
+//   case "bulut":
+//     console.log("bugun bulut");
+//     break;
+//   case "qor":
+//     console.log("bugun qor");
+//     break;
+//   default:
+//     console.log("no data");
+// }
 
-// ==========
-// let a = "10";
-// let b = "10.3";
+// console.log("Hello Muhammad");
+// console.log("Hello Abdulloh");
+// console.log("Hello Abdulloh");
+// console.log("Hello Abdulloh");
+// console.log("Hello Abdulloh");
+// console.log("Hello Abdulloh");
+// console.log("Hello Abdulloh");
+// console.log("Hello Abdulloh");
+// console.log("Hello Abdulloh");
+// console.log("Hello Abdulloh");
 
-// console.log(Number(b));
-// console.log(Number.parseInt(b));
-// console.log(Number.parseFloat(b));
-// console.log(parseFloat(b));
-// console.log(parseInt(b));
+// console.log(1);
+// console.log(2);
+// console.log(3);
 
-// console.log(Number(a));
-// console.log(Number.parseInt(a));
-// console.log(Number.parseFloat(a));
+// for(boshlanish,manzil, step )
+// var i = 1;
+// var sum = 0;
+// for (i = 1; i <= 12; i++) {
+//   if (i % 3 === 0) continue;
+//   console.log(` ${i}`);
+// }
 
-// ==========
-// true = 1, '1',
-// false -> 0,
-// console.log(false == 0);
-// console.log(true == 1);
-// console.log(false == null);
-// console.log(false == undefined);
-// console.log(undefined == null);
+// for (i = 10; i >= 1; i--) {
+//   for (j = 1; j <= 10; j++) {
+//     console.log(j);
+//   }
+//   //   console.log(i);
+// }
 
-// console.log(true == "1");
-// console.log(true == "a");
-// console.log(true == "2");
-// console.log(true == "0");
+// 2lik karra jadvali
+// 2 x 1 = 2
+// 2 x 2 = 4
+// 2 x 3 = 6
 
-// ==========
-// let a = 1;
-// let b = "10";
+// 3lik karra jadvali
+// 3 x 1 = 2
+// 3 x 2 = 4
+// 3 x 3 = 6
 
-// console.log(1 + (1 * 1) / 1);
-// console.log(((1 + 1) * 1) / 1);
-
-// ========== --, ++
-// a++
-// a = a+1
-
-// let a = 11; //1
-// console.log(a--); //11
-// console.log(a); // 12
-// console.log(++a); //13
-// console.log(a); // 13
-// console.log(a++); // 13
-// console.log(a++); // 14
-// console.log(++a); // 16
-
-// ==========
-
-// Obrivations
-// let a = 50;
-
-// a = a + 10; // 50+10=60
-// a += 10; // 60+10=70
-
-// console.log(a);
-
-// ==========
-// Comparision
-// let a = 10;
-// let b = 11; //number
-// let c = "11"; // string
-
-// =, ==, ==
-
-// console.log(a > b);
-// console.log(a < b);
-// console.log(c < b);
-// console.log(c <= b);
-// console.log(c >= b);
-// console.log(c == b);
-// console.log(c === b);
-// console.log(c =< b); wrong syn
-
-// let str1 = "A";
-// let str2 = "a";
-
-// console.log(str1 > str2);
-// console.log(str1 < str2);
-// console.log("sutr1" < "str2");
-
-// let a = 1;
-// let b = 1;
-// let check = true;
-
-// console.log(a == b); // !=
-// console.log(a === b); //!==
-// console.log(a != b);
-// console.log(check);
-// console.log(!check);
-
-// ==========
-// Logical Operations
-// OR ||
-// let ceo = false;
-// let admin = true;
-
-// console.log(time === true || ceo === true);
-// console.log(false || true);
-// console.log(admin || ceo);
-
-// let time = 11;
-// console.log(admin === true || ceo === true);
-
-// AND &&
-
-// Europe
-let id = false;
-let face = true;
-
-// uzbek
-let galustik = true;
-let soqol = true;
-let pul = true;
-
-console.log(galustik && soqol && pul);
+// outer: for (i = 1; i <= 5; i++) {
+//   console.log(i, "i");
+// }
