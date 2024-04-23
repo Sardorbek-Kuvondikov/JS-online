@@ -127,7 +127,7 @@
 //   : console.log("havo juda issiq");
 
 // Nullish ?? -> null undefined
-// OR || -> null undefined, 0 , false, NaN, "", -1 0n
+// OR || -> null undefined, 0 , false, NaN, "", 0
 
 // console.log(false || 1);
 // console.log(false ?? 1);
@@ -143,3 +143,9 @@
 // console.log(2 * 2); //2 ** 2
 // console.log(2 * 2 * 2); //2 ** 3
 // console.log(2 * 2 * 2 * 2); //2 ** 4
+
+// * * * HOMEWORK * * * //
+// let userName = "Sardorbek";
+// alert(`hello ${1}`); // 1
+// alert(`hello ${"name"}`); // name
+// alert(`hello ${userName}`); // Sardorbek
