@@ -232,5 +232,5 @@
 //         index++;
 //     }
 // index++
-// }while(index < str.length);
+// } while(index < str.length);
 // console.log(arr);
