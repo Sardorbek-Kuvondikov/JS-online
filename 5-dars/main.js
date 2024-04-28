@@ -92,6 +92,7 @@
 // getGPA("Webbrain", getValue);
 
 // * * * HOMEWORK * * * //
+// while 
 
 // 1-misol katta hariflarni ajratish "WBA".
 
@@ -166,7 +167,7 @@
 // console.log(arr);
 
 // TEPADAGI 4 misolning hammasini do whileda qilish.
-
+// do while
 // 1-misol
 
 // let str = "Web Brain Academy";
@@ -234,3 +235,23 @@
 // index++
 // } while(index < str.length);
 // console.log(arr);
+
+// FUNCTIONS
+
+// 1-misol fn parametirida eng kotta raqamni chiqarish.
+// function maxnumber(a, b) {
+//     if(a > b) {
+//         console.log(`${a} kotta`);
+//     }else{
+//         console.log(`${b} kotta`);
+//     }
+// }
+// maxnumber(5, 6);
+
+// 2-misol log da 15, 25 teskari chiqishi kerak (25, 15) tarzoda.
+
+// function changeNumber(a, b){
+//     console.log(b, a);
+// }
+// changeNumber(15, 25);
+
